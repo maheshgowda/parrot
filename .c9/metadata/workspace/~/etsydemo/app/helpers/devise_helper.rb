@@ -1,0 +1,1 @@
+{"filter":false,"title":"devise_helper.rb","tooltip":"~/etsydemo/app/helpers/devise_helper.rb","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1433571578000,"hash":"cfd9f2ccc4e88a3364741227cb90a9de055e8c34"}

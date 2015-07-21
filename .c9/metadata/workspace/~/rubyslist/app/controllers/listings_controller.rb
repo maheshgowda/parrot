@@ -1,0 +1,1 @@
+{"changed":true,"filter":false,"title":"listings_controller.rb","tooltip":"~/rubyslist/app/controllers/listings_controller.rb","ace":{},"value":"","undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1432365005000}

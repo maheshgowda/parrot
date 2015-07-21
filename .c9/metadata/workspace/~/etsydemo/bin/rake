@@ -1,0 +1,1 @@
+{"changed":true,"filter":false,"title":"rake","tooltip":"~/etsydemo/bin/rake","ace":{},"value":"#!/usr/bin/env ruby\nbegin\n  load File.expand_path(\"../spring\", __FILE__)\nrescue LoadError\nend\nrequire_relative '../config/boot'\nrequire 'rake'\nRake.application.run\n","undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1433404945000}

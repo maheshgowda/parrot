@@ -1,0 +1,1 @@
+{"filter":false,"title":"image_uploader.rb","tooltip":"~/etsydemo/app/uploaders/image_uploader.rb","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1433483805000,"hash":"9ee6f214cbc3e066a7cbe0892d22b9ce0c55833f"}

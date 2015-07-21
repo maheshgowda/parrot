@@ -1,0 +1,1 @@
+{"filter":false,"title":"user.rb","tooltip":"~/etsydemo/app/models/user.rb","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1433583035000,"hash":"e6f527213358f4a4c71bb05b2a99249799586255"}

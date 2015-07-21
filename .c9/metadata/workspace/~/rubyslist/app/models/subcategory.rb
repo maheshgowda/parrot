@@ -1,0 +1,1 @@
+{"filter":false,"title":"subcategory.rb","tooltip":"~/rubyslist/app/models/subcategory.rb","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1432364036000,"hash":"f1505c1c4aef8b978db70bb14755badddd255bb0"}

@@ -1,0 +1,24 @@
+
+
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">Asteroid Market</h1>
+                </div>
+            </div>
+            <% @asteriods.each do |asteroid| %>
+            
+                <div class="col-md-6">
+
+                        <div class="img-responsive" alt="">
+                            
+                        </div>
+                        <a href="<%= asteroid.linkpath %>"><%= image_tag(asteroid.binary_data, size: "550x200") %></a>
+                        <h4><%= asteroid.description %></h4>
+                </div>
+                
+            <% end %>
+        </div>
+    </section>
+    

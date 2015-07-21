@@ -1,0 +1,1 @@
+{"filter":false,"title":"application_controller.rb","tooltip":"~/etsydemo/app/controllers/application_controller.rb","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1433580666000,"hash":"209e51137b10cb95094106295727bb8c626c8d29"}

@@ -1,0 +1,49 @@
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+        <div class="intro-text" style="background-image: url(http://www.parrot.com/media/uploads/entreprises/entreprises-asteroid-smart.jpg); height: 300px;" >
+                    <h2>CONNECTED AUTOMOTIVE INFOTAINMENT</h2>&nbsp;
+                    <ul>
+	                    <li>Android-based Infotainment platform</li>
+	                    <li>WiFi AP &amp; UPnP</li>
+	                    <li>3G/LTE acces</li>
+	                    <li>USB/SD/iPod/iPhone management</li>
+	                    <li>Digital Signal Processing</li>
+	                    <li>Audio Streaming</li>
+	                    <li>Hands-free telephony</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    
+                <h4>Our mission: bringing the best in Smartphone features to your car.</h4>
+        </div>
+</div>
+<section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            
+            <% @prosolutions.each do |prosolution| %>
+            
+                <div class="col-md-4">
+
+                        <div class="img-responsive" alt="">
+                               <h5><%= prosolution.psname %></h5>
+                               <a href="<%= prosolution.linkpath %>"><%= image_tag(prosolution.binary_data) %></a>
+                               <h6><%= prosolution.pdescription %></h6>
+                               <button>
+                                   <a href="<%= prosolution.linkpath %>"><%= prosolution.linkname %></a>
+                               </button>
+                               
+                        </div>
+                </div>
+                
+            <% end %>
+        </div>
+    </section>
+
+    
+    
+
+

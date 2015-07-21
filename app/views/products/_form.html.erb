@@ -1,0 +1,20 @@
+<br>
+<br>
+
+ <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            
+            <% @products.each do |product| %>
+            
+                <div class="col-md-6">
+
+                        <div class="img-responsive" alt="">
+                            
+                        </div>
+                        <a href="<%= product.linkpath %>"><%= image_tag(product.binary_data, size: "550x200") %></a>
+                        <h5><%= product.pname %></h5>
+                </div>
+                
+            <% end %>
+        </div>
+    </section>
